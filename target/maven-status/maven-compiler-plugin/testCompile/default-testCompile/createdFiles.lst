@@ -1,0 +1,6 @@
+com\api\tests\DemoAPITest.class
+com\api\tests\GETProfileAPITest.class
+com\api\tests\ForgotPasswordAPITest.class
+com\api\tests\UpdateProfileAPITest.class
+com\api\tests\AccountCreationAPITest.class
+com\api\tests\LoginAPITest.class

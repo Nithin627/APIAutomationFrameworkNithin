@@ -1,0 +1,122 @@
+2026-03-04 21:46:29 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+2026-03-04 21:46:29 [main] INFO  com.api.listeners.TestListener - Started!! loginTest
+2026-03-04 21:46:29 [main] INFO  com.api.listeners.TestListener - Description!! Verify if login API is working...
+2026-03-04 21:46:31 [main] INFO  com.api.listeners.TestListener - Passed!! loginTest
+2026-03-04 21:46:31 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!
+2026-03-04 22:29:17 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+2026-03-04 22:29:17 [main] INFO  com.api.listeners.TestListener - Started!! loginTest
+2026-03-04 22:29:17 [main] INFO  com.api.listeners.TestListener - Description!! Verify if login API is working...
+2026-03-04 22:29:18 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+2026-03-04 22:29:18 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+2026-03-04 22:29:18 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"Nithin","password":"nithin123@"}
+2026-03-04 22:29:18 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+2026-03-04 22:29:18 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 04 Mar 2026 16:59:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2026-03-04 22:29:18 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI2NDM1NTcsImV4cCI6MTc3MjY0NzE1N30.pIDyp0UDhX3mv2d77M_ItE0kL73Ch-OWs6lqtNXnySM",
+    "type": "Bearer",
+    "id": 4096,
+    "username": "Nithin",
+    "email": "nithinpaur@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2026-03-04 22:29:18 [main] INFO  com.api.listeners.TestListener - Passed!! loginTest
+2026-03-04 22:29:18 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!
+2026-03-04 22:54:19 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+2026-03-04 22:54:19 [main] INFO  com.api.listeners.TestListener - Started!! loginTest
+2026-03-04 22:54:19 [main] INFO  com.api.listeners.TestListener - Description!! Verify if login API is working...
+2026-03-04 22:54:20 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+2026-03-04 22:54:20 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+2026-03-04 22:54:20 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"Nithin","password":"nithin123@"}
+2026-03-04 22:54:21 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+2026-03-04 22:54:21 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 04 Mar 2026 17:24:21 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2026-03-04 22:54:21 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI2NDUwNjEsImV4cCI6MTc3MjY0ODY2MX0.2oYf9zea8iWdEJwmXZ1PioEKBp63XtwESNAZQegvPso",
+    "type": "Bearer",
+    "id": 4096,
+    "username": "Nithin",
+    "email": "nithinpaur@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2026-03-04 22:54:21 [main] INFO  com.api.listeners.TestListener - Passed!! loginTest
+2026-03-04 22:54:21 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!
+2026-03-04 23:37:22 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+2026-03-04 23:37:22 [main] INFO  com.api.listeners.TestListener - Started!! loginTest
+2026-03-04 23:37:22 [main] INFO  com.api.listeners.TestListener - Description!! Verify if login API is working...
+2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+Content-Type=application/json
+2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"Nithin","password":"nithin123@"}
+2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Wed, 04 Mar 2026 18:07:23 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI2NDc2NDMsImV4cCI6MTc3MjY1MTI0M30.-VoSTJuSt9uznXcUJf3LGOdQ8RLEbIWRjBDKbjspLbI",
+    "type": "Bearer",
+    "id": 4096,
+    "username": "Nithin",
+    "email": "nithinpaur@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+2026-03-04 23:37:23 [main] INFO  com.api.listeners.TestListener - Passed!! loginTest
+2026-03-04 23:37:23 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!

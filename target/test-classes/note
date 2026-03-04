@@ -1,0 +1,1 @@
+ Run it from terminal -> mvn clean test -Dsuite=suite 

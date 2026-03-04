@@ -3,9 +3,9 @@ name: API testing framework
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "Nithin001" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "Nithin001" ]
     
   schedule:
     - cron: 00 18 * * *

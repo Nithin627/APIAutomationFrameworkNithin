@@ -6,7 +6,9 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
-
+  schedule:
+    - cron: 00 18 * * *
+    - cron: 00 3 * * *
 jobs:
   build:
 
@@ -22,5 +24,12 @@ jobs:
         cache: maven
     - name: Execute test
       run:  mvn clean test -Dsuite=suite
+      
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v7.0.0
+      with:
+        name: Logs
+        path: logs/
+      
 
 

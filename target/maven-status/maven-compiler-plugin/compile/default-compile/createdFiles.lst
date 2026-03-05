@@ -1,5 +1,6 @@
 com\api\models\request\SignUpRequest.class
 com\api\base\BaseService.class
+com\api\reporting\ExtentReportManagerMain.class
 com\api\models\request\LoginRequest$Builder.class
 com\api\listeners\TestListener.class
 com\api\models\response\UserProfileResponse.class
@@ -12,3 +13,5 @@ com\api\base\AuthService.class
 com\api\models\request\UpdateProfileRequest.class
 com\api\models\response\LoginResponse.class
 com\api\base\UserProfileManagementService.class
+com\api\listeners\TestListenerMain.class
+com\api\reporting\ExtentReportManagerFromCopiolet.class

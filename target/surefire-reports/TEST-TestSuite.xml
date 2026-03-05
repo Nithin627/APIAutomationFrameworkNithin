@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="1.829" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="2.268" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\nithi\OneDrive\Documents\Selenium_Project\APIAutomationFrameworkNithin\target\test-classes;C:\Users\nithi\OneDrive\Documents\Selenium_Project\APIAutomationFrameworkNithin\target\classes;C:\Users\nithi\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\nithi\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\nithi\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\nithi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\nithi\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nithi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nithi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nithi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\nithi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nithi\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\nithi\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\nithi\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.1\jackson-databind-2.21.1.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.1\jackson-core-2.21.1.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\nithi\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\nithi\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\nithi\OneDrive\Documents\Selenium_Project\APIAutomationFrameworkNithin\target\test-classes;C:\Users\nithi\OneDrive\Documents\Selenium_Project\APIAutomationFrameworkNithin\target\classes;C:\Users\nithi\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\nithi\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\nithi\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\nithi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\nithi\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nithi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nithi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nithi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\nithi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nithi\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\nithi\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\nithi\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.1\jackson-databind-2.21.1.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.1\jackson-core-2.21.1.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\nithi\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\nithi\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\nithi\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\nithi\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\nithi\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\nithi\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\nithi\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\nithi\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\nithi\AppData\Local\Temp\surefire5516400603003591648\surefirebooter-20260304233721704_3.jar C:\Users\nithi\AppData\Local\Temp\surefire5516400603003591648 2026-03-04T23-37-21_599-jvmRun1 surefire-20260304233721704_1tmp surefire_0-20260304233721704_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\nithi\AppData\Local\Temp\surefire9258477577153922680\surefirebooter-20260305202308569_3.jar C:\Users\nithi\AppData\Local\Temp\surefire9258477577153922680 2026-03-05T20-23-08_476-jvmRun1 surefire-20260305202308569_1tmp surefire_0-20260305202308569_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\nithi\OneDrive\Documents\Selenium_Project\APIAutomationFrameworkNithin\target\test-classes;C:\Users\nithi\OneDrive\Documents\Selenium_Project\APIAutomationFrameworkNithin\target\classes;C:\Users\nithi\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\nithi\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\nithi\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\nithi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\nithi\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nithi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nithi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nithi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\nithi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nithi\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\nithi\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\nithi\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.1\jackson-databind-2.21.1.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.1\jackson-core-2.21.1.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\nithi\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\nithi\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\nithi\OneDrive\Documents\Selenium_Project\APIAutomationFrameworkNithin\target\test-classes;C:\Users\nithi\OneDrive\Documents\Selenium_Project\APIAutomationFrameworkNithin\target\classes;C:\Users\nithi\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\nithi\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\nithi\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\nithi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\nithi\.m2\repository\io\rest-assured\rest-assured\6.0.0\rest-assured-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy\5.0.3\groovy-5.0.3.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy-xml\5.0.3\groovy-xml-5.0.3.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nithi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nithi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nithi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nithi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\nithi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nithi\.m2\repository\io\rest-assured\json-path\6.0.0\json-path-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\groovy\groovy-json\5.0.3\groovy-json-5.0.3.jar;C:\Users\nithi\.m2\repository\io\rest-assured\rest-assured-common\6.0.0\rest-assured-common-6.0.0.jar;C:\Users\nithi\.m2\repository\io\rest-assured\xml-path\6.0.0\xml-path-6.0.0.jar;C:\Users\nithi\.m2\repository\org\apache\commons\commons-lang3\3.19.0\commons-lang3-3.19.0.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.21.1\jackson-databind-2.21.1.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.21.1\jackson-core-2.21.1.jar;C:\Users\nithi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.21\jackson-annotations-2.21.jar;C:\Users\nithi\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\nithi\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\nithi\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\nithi\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\nithi\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\nithi\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\nithi\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\nithi\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\nithi"/>
     <property name="user.language" value="en"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\nithi\AppData\Local\Temp\surefire5516400603003591648\surefirebooter-20260304233721704_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nithi\AppData\Local\Temp\surefire9258477577153922680\surefirebooter-20260305202308569_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.7+8-LTS-245"/>
@@ -59,16 +59,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="loginTest" classname="com.api.tests.LoginAPITest" time="1.26">
-    <system-out><![CDATA[2026-03-04 23:37:22 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
-2026-03-04 23:37:22 [main] INFO  com.api.listeners.TestListener - Started!! loginTest
-2026-03-04 23:37:22 [main] INFO  com.api.listeners.TestListener - Description!! Verify if login API is working...
-2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
-2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
+  <testcase name="loginTest" classname="com.api.tests.LoginAPITest" time="1.31">
+    <system-out><![CDATA[2026-03-05 20:23:09 [main] INFO  com.api.listeners.TestListenerMain - Test Suite Started!!!
+2026-03-05 20:23:09 [main] INFO  com.api.listeners.TestListenerMain - Started!! loginTest
+2026-03-05 20:23:09 [main] INFO  com.api.listeners.TestListenerMain - Description!! Verify if login API is working...
+2026-03-05 20:23:10 [main] INFO  com.api.filters.LoggingFilter - BASE URI: http://64.227.160.186:8080
+2026-03-05 20:23:10 [main] INFO  com.api.filters.LoggingFilter - Request Header: Accept=*/*
 Content-Type=application/json
-2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"Nithin","password":"nithin123@"}
-2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
-2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
+2026-03-05 20:23:10 [main] INFO  com.api.filters.LoggingFilter - Request Payload: {"username":"Nithin","password":"nithin123@"}
+2026-03-05 20:23:10 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+2026-03-05 20:23:10 [main] INFO  com.api.filters.LoggingFilter - Response Header: Vary=Origin
 Vary=Access-Control-Request-Method
 Vary=Access-Control-Request-Headers
 Access-Control-Allow-Origin=https://swift.techwithjatin.com
@@ -84,11 +84,11 @@ Expires=0
 X-Frame-Options=DENY
 Content-Type=application/json
 Transfer-Encoding=chunked
-Date=Wed, 04 Mar 2026 18:07:23 GMT
+Date=Thu, 05 Mar 2026 14:53:10 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
 {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI2NDc2NDMsImV4cCI6MTc3MjY1MTI0M30.-VoSTJuSt9uznXcUJf3LGOdQ8RLEbIWRjBDKbjspLbI",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI3MjIzOTAsImV4cCI6MTc3MjcyNTk5MH0.Y0yn7CpfLLijw1TeiljrYVqzvyo7ni9a6QdpiVxPD6s",
     "type": "Bearer",
     "id": 4096,
     "username": "Nithin",
@@ -97,8 +97,8 @@ Connection=keep-alive
         "ROLE_USER"
     ]
 }
-2026-03-04 23:37:23 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI2NDc2NDMsImV4cCI6MTc3MjY1MTI0M30.-VoSTJuSt9uznXcUJf3LGOdQ8RLEbIWRjBDKbjspLbI",
+2026-03-05 20:23:10 [main] INFO  com.api.filters.LoggingFilter - Response Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI3MjIzOTAsImV4cCI6MTc3MjcyNTk5MH0.Y0yn7CpfLLijw1TeiljrYVqzvyo7ni9a6QdpiVxPD6s",
     "type": "Bearer",
     "id": 4096,
     "username": "Nithin",
@@ -108,7 +108,7 @@ Connection=keep-alive
     ]
 }
 {
-    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI2NDc2NDMsImV4cCI6MTc3MjY1MTI0M30.-VoSTJuSt9uznXcUJf3LGOdQ8RLEbIWRjBDKbjspLbI",
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI3MjIzOTAsImV4cCI6MTc3MjcyNTk5MH0.Y0yn7CpfLLijw1TeiljrYVqzvyo7ni9a6QdpiVxPD6s",
     "type": "Bearer",
     "id": 4096,
     "username": "Nithin",
@@ -117,7 +117,17 @@ Connection=keep-alive
         "ROLE_USER"
     ]
 }
-eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI2NDc2NDMsImV4cCI6MTc3MjY1MTI0M30.-VoSTJuSt9uznXcUJf3LGOdQ8RLEbIWRjBDKbjspLbI
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI3MjIzOTAsImV4cCI6MTc3MjcyNTk5MH0.Y0yn7CpfLLijw1TeiljrYVqzvyo7ni9a6QdpiVxPD6s",
+    "type": "Bearer",
+    "id": 4096,
+    "username": "Nithin",
+    "email": "nithinpaur@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJOaXRoaW4iLCJpYXQiOjE3NzI3MjIzOTAsImV4cCI6MTc3MjcyNTk5MH0.Y0yn7CpfLLijw1TeiljrYVqzvyo7ni9a6QdpiVxPD6s
 nithinpaur@gmail.com
 4096
 ]]></system-out>

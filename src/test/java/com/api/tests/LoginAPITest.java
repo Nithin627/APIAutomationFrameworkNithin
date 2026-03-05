@@ -10,7 +10,7 @@ import com.api.models.response.LoginResponse;
 
 import io.restassured.response.Response;
 
-@Listeners(com.api.listeners.TestListener.class)
+@Listeners(com.api.listeners.TestListenerMain.class)
 public class LoginAPITest {
 
 	@Test(description = "Verify if login API is working...")

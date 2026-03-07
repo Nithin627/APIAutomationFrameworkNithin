@@ -29,7 +29,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Execute test
-      run:  mvn clean test -Dsuite=suite
+      run:  mvn clean test -Dsuite=suite -X
       
     - name: Upload a Build Artifact
       if: always()
